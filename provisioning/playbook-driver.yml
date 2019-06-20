@@ -1,0 +1,8 @@
+---
+- name: Create a hello-world 
+  hosts: driver
+  become: true
+  roles:
+    - epel
+    - common 
+    - spark

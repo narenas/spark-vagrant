@@ -1,0 +1,7 @@
+
+spark_version: 2.4.3
+spark_src_dir: /tmp/spark 
+spark_url: https://archive.apache.org/dist/spark/spark-{{ spark_version }}/spark-{{ spark_version }}-bin-hadoop2.7.tgz
+spark_file: spark-{{ spark_version }}-bin-hadoop2.7.tgz
+spark_install_dir: /usr/local/
+spark_link: /usr/local/spark 

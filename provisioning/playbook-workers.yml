@@ -1,0 +1,9 @@
+---
+- name: Create a hello-world 
+  hosts: workers
+  become: true
+  roles:
+    - epel
+    - common
+    - spark
+    

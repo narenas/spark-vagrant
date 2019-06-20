@@ -1,0 +1,13 @@
+---
+- name: Create a hello-world 
+  hosts: driver
+
+  tasks:
+    - name: Create a file Called '/tmp/testfile'
+      copy: 
+        content: hello world 
+        dest: /tmp/testfile
+    - name: 
+
+- name: Create /etc/hosts
+  

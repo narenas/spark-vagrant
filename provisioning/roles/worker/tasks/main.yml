@@ -1,0 +1,4 @@
+- name: Start workers 
+  shell: /usr/local/spark/sbin/start-slave.sh http://driver:7077
+  become: False 
+  

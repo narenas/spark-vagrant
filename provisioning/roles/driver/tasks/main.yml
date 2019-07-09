@@ -1,0 +1,6 @@
+- name: Start cluster 
+  shell: /usr/local/spark/sbin/start-master.sh 
+  become: false  
+  environment: "{{ spark_env }} "
+
+  

@@ -3,7 +3,5 @@ packages:
   - avahi 
   - java-11-openjdk
 
-spark_src_dir: /tmp/spark 
-spark_url: https://archive.apache.org/dist/spark/spark-2.4.3/spark-2.4.3-bin-hadoop2.7.tgz
 
 

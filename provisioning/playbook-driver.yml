@@ -6,3 +6,4 @@
     - epel
     - common 
     - spark
+    - driver 

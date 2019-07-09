@@ -22,5 +22,6 @@
 - name: Link to current spark 
   file: 
     state: link 
-    src: "{{ spark_install_dir/spark-spark_version-bin-hadoop2.7 }} "
+    src: "{{ spark_install_dir }}/spark-2.4.3-bin-hadoop2.7"
     dest: /usr/local/spark 
+    force: yes
